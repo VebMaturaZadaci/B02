@@ -1,0 +1,38 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Pocetna";
+}
+
+
+<body>
+    <div class="navigationBar">
+        <ul class="navbar">
+            <li class="nav-item">
+                <a class="navlink text-dark" asp-area="" asp-page="/Index">Pocetna</a>
+            </li>
+            <li class="nav-item">
+                <a class="navlink text-dark" asp-area="" asp-page="/O Autoru">O Autoru</a>
+            </li>
+            <li class="nav-item">
+                <a class="navlink text-dark" asp-area="" asp-page="/Uputstvo">Uputstvo</a>
+            </li>
+        </ul>
+    </div>
+    <div class="slider">
+        <div class="zivotinje"></div>
+        <h1 class="naslov">Domace Zivotinje</h1>
+        <div>
+            <table class="tabela">
+                <tr>
+                    <td><img src="~/slike/curka.png" alt="Slika" class="domaca-zivotinja" id="curka"></td>
+                    <td><img src="~/slike/jagnje.png" alt="Slika" class="domaca-zivotinja" id="jagnje"></td>
+                    <td><img src="~/slike/kokoska.png" alt="Slika" class="domaca-zivotinja" id="kokoska"></td>
+                    <td><img src="~/slike/pas.png" alt="Slika" class="domaca-zivotinja" id="pas"></td>
+                    <td><img src="~/slike/svinja.png" alt="Slika" class="domaca-zivotinja" id="svinja"></td>
+                </tr>
+            </table>
+        </div>
+    </div>
+
+</body>
